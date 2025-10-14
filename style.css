@@ -16,6 +16,11 @@ img {
 /* phone */
 body {
   background-color: #e4e7ec;
+  
+}
+div{
+  display:flex;
+  flex-direction: column;
 }
 
 
@@ -28,8 +33,13 @@ h1 {
 
 /* computer */
 @media screen and (min-width: 600px) {
-
-
+  div{
+  flex-direction: row;
+  flex-wrap:wrap;
+  width: 25%;
+  margin: 20px auto;
+  padding: 20px;
+}
 
 }
 
