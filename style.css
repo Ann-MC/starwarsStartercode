@@ -60,6 +60,10 @@ a:hover{
   font-weight: bold;
 }
 
+.colors{
+  color:yellow;
+}
+
 h1 {
   font-family: "SF Distant Galaxy";
   font-size: 350%;
