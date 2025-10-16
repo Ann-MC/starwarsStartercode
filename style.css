@@ -15,31 +15,72 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #030d1d;
   
 }
 div{
   display:flex;
   flex-direction: column;
+  
+
 }
 
+.row{
+  display:flex;
+  flex-direction: column;
 
+
+}
+
+.overall{
+  justify-content: center;
+  align-items: center;
+  margin:5%;
+}
+
+.stylel {
+  color:yellow;
+  text-align: center;
+  flex-direction: column;
+  
+}
+
+.fonty{
+  color:yellow;
+  text-align: center;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: xx-large;
+  text-decoration: none;
+  margin:1%;
+}
+a:hover{
+  color:red;
+  font-style: italic;
+  font-weight: bold;
+}
 
 h1 {
   font-family: "SF Distant Galaxy";
+  font-size: 350%;
 }
 
-
+.centero{
+  justify-content: center;
+}
 
 /* computer */
 @media screen and (min-width: 600px) {
-  div{
+  .links{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .row{
   flex-direction: row;
-  flex-wrap:wrap;
-  width: 25%;
-  margin: 20px auto;
-  padding: 20px;
-}
 
 }
 
+
+}
+/* bg original color: e4e7ec */ 
